@@ -7,13 +7,13 @@ h1 {
     display: block;
     text-align: center;
     margin: auto;
-    width: 10%;
+    width: 200px;
 }
 
 #schoolInfo {
     display: block;
     text-align: center;
     margin: 50px auto;
-    height: auto;
-    width: 60%;
+    height: 300px;
+    /* width: 60%; */
 }
