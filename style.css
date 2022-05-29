@@ -53,7 +53,7 @@ h1 {
     display: block;
     text-align: center;
     margin: 50px auto;
-    height: 300px;
+    /* height: 300px; */
     /* width: 60%; */
 }
 
@@ -62,17 +62,6 @@ h1 {
     color: #f3e927;
     text-shadow: 5px black;
     font-family: 'Pangolin', cursive;
-}
-
-.wellComeText {
-    text-align: center;
-    color: black;
-    font-size: 50px;
-    font-family: 'Arial-Black';
-    height: 20rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .carouselImg {
@@ -132,7 +121,7 @@ a.btn-gradient {
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     width: 70%;
     /* height: 100%; */
-    font-size: 16px;
+    font-size: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     font-family: 'Pangolin', cursive;
     font-weight: bold;
@@ -144,4 +133,39 @@ a.btn-gradient:hover {
     color: #fff;
     -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#schoolInfo {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.schoolName {
+    text-align: center;
+    font-size: 60px;
+    stop-color: #1d1d1d;
+    text-shadow: 2px 2px #f3e927;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.week {
+    text-align: center;
+    font-size: 25px;
+    stop-color: #1d1d1d;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.lessonTime {
+    text-align: start;
+    font-size: 20px;
+    stop-color: #1d1d1d;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff07f;
+    border: solid rgba(0, 0, 0, 0);
+    box-shadow: 0 10px 15px rgba(100, 100, 100, 0.5);
+    text-align: center;
 }
