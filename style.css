@@ -184,3 +184,8 @@ a.btn-gradient:hover {
 .navbar-toggler {
     border-color: #ffffff;
 }
+
+.newIcon {
+    width: 60px;
+    top: 90px;
+}
