@@ -61,7 +61,7 @@ h1 {
     font-size: 20px;
     color: #f3e927;
     text-shadow: 5px black;
-    font-family: 'Carter One', cursive;
+    font-family: 'Pangolin', cursive;
 }
 
 .wellComeText {
@@ -73,4 +73,75 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.carouselImg {
+    object-fit: cover;
+    width: 200px;
+    /* height: 500px; */
+}
+
+.linkText {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+#lineIcon {
+    width: 20%;
+}
+
+/* #outerLine {
+    width: 20%;
+} */
+
+/* #lineIcon:hover {
+    -webkit-transform: translate(0, -2px);
+    transform: translate(0, -2px);
+    color: #fff;
+    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} */
+/* 
+#outerInsta {
+    width: 28%;
+} */
+
+#instaIcon {
+    width: 28%;
+}
+/* #instaIcon:hover {
+    -webkit-transform: translate(0, -2px);
+    transform: translate(0, -2px);
+    color: #fff;
+    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} */
+
+.orientationText {
+    font-size: 60px;
+}
+
+a.btn-gradient {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 0;
+    background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+    background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    /* height: 100%; */
+    font-size: 16px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+}
+
+a.btn-gradient:hover {
+    -webkit-transform: translate(0, -2px);
+    transform: translate(0, -2px);
+    color: #fff;
+    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
