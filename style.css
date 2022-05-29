@@ -45,7 +45,8 @@ h1 {
     display: block;
     text-align: center;
     margin: auto;
-    width: 300px;
+    width: 40px;
+    margin-right: 10px;
 }
 
 #schoolInfo {
@@ -60,7 +61,7 @@ h1 {
     font-size: 20px;
     color: #f3e927;
     text-shadow: 5px black;
-    font-family: 'Marck Script', cursive;
+    font-family: 'Carter One', cursive;
 }
 
 .wellComeText {
