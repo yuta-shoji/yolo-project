@@ -264,6 +264,12 @@ a.btn-gradient:hover {
     text-shadow: rgb(104, 54, 134) 1px 0 10px;
 }
 
+.updatePrice {
+    color: #fff;
+    font-size: 14px;
+    /* text-shadow: rgb(104, 54, 134) 1px 0 10px; */
+}
+
 .priceLess {
     color: #fff;
     font-size: 40px;
