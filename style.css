@@ -1,5 +1,12 @@
 body {
     padding-top: 5rem;
+    padding-bottom: 10em;
+    background-image: url('./images/background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    margin: 0px;
 }
 
 header {
@@ -15,6 +22,10 @@ header {
     z-index: 1;
     border-bottom: #ffffff;
     margin-bottom: 50px;
+}
+
+.navbar {
+    background-color: #1d1d1ddd;
 }
 
 .space {
@@ -71,41 +82,30 @@ h1 {
 }
 
 .linkText {
+    color: #fff;
     text-align: center;
     font-size: 30px;
     font-family: 'Mochiy Pop One', sans-serif;
 }
 
-#lineIcon {
-    width: 20%;
+.outerSns {
+    text-align: center;
 }
 
-/* #outerLine {
-    width: 20%;
-} */
+#dancersIcon {
+    top: 0px;
+    width: 30px;
+}
 
-/* #lineIcon:hover {
-    -webkit-transform: translate(0, -2px);
-    transform: translate(0, -2px);
-    color: #fff;
-    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-} */
-/* 
-#outerInsta {
-    width: 28%;
-} */
+#lineIcon {
+    top: 0px;
+    width: 20px;
+}
 
 #instaIcon {
-    width: 28%;
+    top: 0px;
+    width: 20px;
 }
-/* #instaIcon:hover {
-    -webkit-transform: translate(0, -2px);
-    transform: translate(0, -2px);
-    color: #fff;
-    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-} */
 
 .orientationText {
     font-size: 60px;
@@ -121,7 +121,7 @@ a.btn-gradient {
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     width: 70%;
     /* height: 100%; */
-    font-size: 20px;
+    font-size: 25px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     font-family: 'Pangolin', cursive;
     font-weight: bold;
@@ -135,17 +135,44 @@ a.btn-gradient:hover {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-#schoolInfo {
-    font-size: 50px;
+.orientationBar {
+    color: #fff;
     text-align: center;
+    text-shadow: rgb(104, 54, 134) 1px 0 10px;
     font-family: 'Mochiy Pop One', sans-serif;
+    background-color: rgba(105, 54, 134, 0.516);
+    width: 100%;
+}
+
+.orientation {
+    font-size: 25px;
+}
+.open {
+    font-size: 40px;
+}
+
+.schoolInfo {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: rgb(104, 54, 134) 1px 0 10px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-color: rgba(105, 54, 134, 0.516);
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 .schoolName {
     text-align: center;
     font-size: 60px;
     stop-color: #1d1d1d;
-    text-shadow: 2px 2px #f3e927;
     font-family: 'Mochiy Pop One', sans-serif;
 }
 
@@ -169,23 +196,67 @@ a.btn-gradient:hover {
 
 .lessonTime {
     text-align: start;
-    font-size: 20px;
+    font-size: 17px;
     stop-color: #1d1d1d;
     margin-top: 20px;
 }
 
 .card {
-    background-color: #fff07f;
+    background-color: #ffffff67;
+    color: rgb(23, 23, 23);
     border: solid rgba(0, 0, 0, 0);
-    box-shadow: 0 10px 15px rgba(100, 100, 100, 0.5);
+    /* box-shadow: 0 10px 15px rgba(100, 100, 100, 0.5); */
+    box-shadow: 0px 0px 30px 2px rgb(42, 42, 42);
     text-align: center;
+    z-index: 2;
 }
 
-.navbar-toggler {
-    border-color: #ffffff;
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .newIcon {
     width: 60px;
-    top: 90px;
+    top: 80px;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.orientInfo {
+    text-align: center;
+}
+
+.orientSchool {
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-shadow: rgb(104, 54, 134) 1px 0 10px;
+}
+
+.orientTime {
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-shadow: rgb(104, 54, 134) 1px 0 10px;
+}
+
+.orientPrice {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-shadow: rgb(104, 54, 134) 1px 0 10px;
+}
+
+.signUpPrice {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-shadow: rgb(104, 54, 134) 1px 0 10px;
+}
+
+.priceLess {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-shadow: rgb(134, 54, 54) 1px 0 20px;
 }
