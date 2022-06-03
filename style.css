@@ -260,3 +260,10 @@ a.btn-gradient:hover {
     font-family: 'Mochiy Pop One', sans-serif;
     text-shadow: rgb(134, 54, 54) 1px 0 20px;
 }
+
+.cracker {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-shadow: rgb(230, 50, 50) 1px 0 20px;
+}
