@@ -107,6 +107,16 @@ h1 {
     width: 20px;
 }
 
+#moneyIcon {
+    top: 0px;
+    width: 25px;
+}
+
+#houseIcon {
+    top: 0px;
+    width: 25px;
+}
+
 .orientationText {
     font-size: 60px;
 }
