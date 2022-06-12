@@ -1,0 +1,4 @@
+theme:
+url: 'https://yolodanceschool.com'
+plugins:
+    - jekyll-sitemap
