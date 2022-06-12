@@ -1,14 +1,3 @@
-@media screen and (max-width: 480px) {
-    /* 画面サイズが480px以下の場合ここの記述が適用される　*/
-    .carousel {
-        width: 100%; /*サイズ指定*/
-        margin: 0 auto;
-    }
-    .carousel img {
-        width: 100%;
-    }
-}
-
 body {
     padding-top: 5rem;
     padding-bottom: 10em;
@@ -327,4 +316,15 @@ a.btn-gradient:hover {
     font-family: 'Mochiy Pop One', sans-serif;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    /* 画面サイズが480px以下の場合ここの記述が適用される　*/
+    .carousel {
+        width: 100%; /*サイズ指定*/
+        margin: 0 auto;
+    }
+    .carousel img {
+        width: 100%;
+    }
 }
