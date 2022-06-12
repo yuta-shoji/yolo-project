@@ -1,3 +1,14 @@
+@media screen and (max-width: 480px) {
+    /* 画面サイズが480px以下の場合ここの記述が適用される　*/
+    .carousel {
+        width: 100%; /*サイズ指定*/
+        margin: 0 auto;
+    }
+    .carousel img {
+        width: 100%;
+    }
+}
+
 body {
     padding-top: 5rem;
     padding-bottom: 10em;
@@ -92,7 +103,7 @@ h1 {
     text-align: center;
 }
 
-#dancersIcon {
+.dancersIcon {
     top: 0px;
     width: 30px;
 }
@@ -284,9 +295,36 @@ a.btn-gradient:hover {
 }
 
 .carousel {
-    width: 80%; /*サイズ指定*/
+    width: 50%; /*サイズ指定*/
     margin: 0 auto;
 }
 .carousel img {
     width: 100%;
+}
+
+.aboutSchool {
+    font-size: 30px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.flexClass {
+    display: flex;
+}
+
+.aboutSchoolText {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0), 0px 1px 0 rgb(0, 0, 0), 0-1px 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0),
+        1px 0 0 rgb(0, 0, 0);
+}
+
+.concept {
+    font-size: 30px;
+    color: rgb(190, 140, 239);
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
