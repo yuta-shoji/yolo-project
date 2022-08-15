@@ -204,6 +204,13 @@ a.btn-gradient:hover {
     font-family: 'Mochiy Pop One', sans-serif;
 }
 
+.address {
+    text-align: center;
+    font-size: 16px;
+    stop-color: #1d1d1d;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
 .lessonTime {
     text-align: start;
     font-size: 17px;
@@ -212,7 +219,7 @@ a.btn-gradient:hover {
 }
 
 .card {
-    background-color: #ffffff67;
+    background-color: #ffffff99;
     color: rgb(23, 23, 23);
     border: solid rgba(0, 0, 0, 0);
     /* box-shadow: 0 10px 15px rgba(100, 100, 100, 0.5); */
