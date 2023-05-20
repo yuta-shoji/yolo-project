@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right top;
-    margin: 0px;
+    margin: 0;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
     color: aliceblue;
     text-align: center;
     font-family: 'Arial black';
-    top: 0px;
+    top: 0;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -38,7 +38,7 @@ header {
 
 .titleText {
     font-size: 50px;
-    top: 0px;
+    top: 0;
     width: 60%;
 }
 
@@ -64,8 +64,6 @@ h1 {
     display: block;
     text-align: center;
     margin: 50px auto;
-    /* height: 300px; */
-    /* width: 60%; */
 }
 
 #titleOfNav {
@@ -78,7 +76,6 @@ h1 {
 .carouselImg {
     object-fit: cover;
     width: 100px;
-    /* height: 500px; */
 }
 
 .linkText {
@@ -93,28 +90,33 @@ h1 {
 }
 
 .dancersIcon {
-    top: 0px;
+    top: 0;
     width: 30px;
 }
 
 #lineIcon {
-    top: 0px;
+    top: 0;
     width: 20px;
 }
 
 #instaIcon {
-    top: 0px;
+    top: 0;
     width: 20px;
 }
 
 #moneyIcon {
-    top: 0px;
+    top: 0;
     width: 25px;
 }
 
 #houseIcon {
-    top: 0px;
+    top: 0;
     width: 25px;
+}
+
+#formIcon {
+    top: 0;
+    width: 25px
 }
 
 .orientationText {
@@ -223,7 +225,7 @@ a.btn-gradient:hover {
     color: rgb(23, 23, 23);
     border: solid rgba(0, 0, 0, 0);
     /* box-shadow: 0 10px 15px rgba(100, 100, 100, 0.5); */
-    box-shadow: 0px 0px 30px 2px rgb(42, 42, 42);
+    box-shadow: 0 0 30px 2px rgb(42, 42, 42);
     text-align: center;
     z-index: 2;
 }
@@ -313,7 +315,7 @@ a.btn-gradient:hover {
     color: rgb(255, 255, 255);
     margin: 10px;
     text-shadow: 1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0),
-        1px -1px 0 rgb(0, 0, 0), 0px 1px 0 rgb(0, 0, 0), 0-1px 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0), 0 1px 0 rgb(0, 0, 0), 0-1px 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0),
         1px 0 0 rgb(0, 0, 0);
 }
 
@@ -326,13 +328,25 @@ a.btn-gradient:hover {
 }
 
 @media screen and (max-width: 480px) {
-    /* 画面サイズが480px以下の場合ここの記述が適用される　*/
     .carousel {
-        width: 100%; /*サイズ指定*/
+        width: 100%;
         margin: 0 auto;
     }
     .carousel img {
         width: 100%;
+    }
+    .entryForm {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .entryForm {
+        width: 30%;
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -342,4 +356,8 @@ a.btn-gradient:hover {
     font-family: 'Mochiy Pop One', sans-serif;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.entryFormImg {
+    width: 100%;
 }
