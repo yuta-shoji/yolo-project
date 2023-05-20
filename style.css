@@ -361,3 +361,8 @@ a.btn-gradient:hover {
 .entryFormImg {
     width: 100%;
 }
+
+.entryFormImg:hover {
+    background: white;
+    opacity: 0.7;
+}
